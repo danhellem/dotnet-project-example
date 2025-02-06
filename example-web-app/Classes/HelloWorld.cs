@@ -13,11 +13,18 @@
             return "Hello, World!";
         }
 
-       
+        // method to return date
+        public string GetDate()
+        {
+            return System.DateTime.Now.ToString();
+        }
+
+
     }
 
     public interface IHelloWorld
     {
         string GetMessage();
+        string GetDate();
     }
 }
