@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357abd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bg)"/>
+  
+  <!-- Phone icon -->
+  <g transform="translate(80, 80)">
+    <circle cx="30" cy="30" r="25" fill="white" opacity="0.9"/>
+    <path d="M20 20 L20 40 L40 40 L40 20 Z" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <path d="M22 22 L38 22" stroke="#4a90e2" stroke-width="1"/>
+    <path d="M22 26 L38 26" stroke="#4a90e2" stroke-width="1"/>
+    <path d="M22 30 L32 30" stroke="#4a90e2" stroke-width="1"/>
+  </g>
+  
+  <!-- Email icon -->
+  <g transform="translate(180, 80)">
+    <circle cx="30" cy="30" r="25" fill="white" opacity="0.9"/>
+    <path d="M20 25 L20 35 L40 35 L40 25 L30 30 Z" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <path d="M20 25 L30 30 L40 25" fill="none" stroke="#4a90e2" stroke-width="2"/>
+  </g>
+  
+  <!-- Location icon -->
+  <g transform="translate(280, 80)">
+    <circle cx="30" cy="30" r="25" fill="white" opacity="0.9"/>
+    <path d="M30 20 C35 20 38 23 38 28 C38 33 30 40 30 40 S22 33 22 28 C22 23 25 20 30 20 Z" fill="none" stroke="#4a90e2" stroke-width="2"/>
+    <circle cx="30" cy="28" r="3" fill="#4a90e2"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Get In Touch</text>
+  <text x="200" y="205" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" opacity="0.9">We're here to help you</text>
+</svg>
